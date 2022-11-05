@@ -1,0 +1,12 @@
+Após clicar em instalar
+
+SHIFT + F10
+
+regedit.exe
+
+ir em: HKEY_LOCAL_MACHINE\SYSTEM\Setup
+botão direito > novo > chave
+Criar: LabConfig
+
+Criar arquivo DWORD 32bits: BypassTPMCheck, valor decimal 1
+Criar arquivo DWORD 32bits: BypassSecurebootCheck. valor decimal 1

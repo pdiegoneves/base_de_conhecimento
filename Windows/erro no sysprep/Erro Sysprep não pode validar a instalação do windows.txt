@@ -1,0 +1,5 @@
+Abrir o power shell em modo Administrador
+e executar
+
+
+Get-AppxPackage -AllUsers | Remove-AppxPackage
